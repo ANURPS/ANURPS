@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+		<title>Latest Issue</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Add custom styles for centering */
+			.centered-iframe {
+				background-color: #2D2025;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				padding-top: 1%; /* Padding from the top */
+				padding-bottom: 1%;
+				padding-left: 1%;
+				padding-right: 1%
+			}
+
+			iframe {
+				width: 100%; /* Default width */
+				height: 935px;
+			}
+
+			/* Media query for vertical (narrower) formats */
+			@media (max-width: 768px) {
+				iframe {
+					width: 100%; /* Make iframe width 100% on small screens */
+				}
+			}
+
+		</style>
+	</head>
+	<body class="is-preload">
+
+
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="https://itch.io">Previous Issues</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper.fullscreen">
+						<div class="centered-iframe">
+							<iframe src="Issues/Latest.pdf"></iframe>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
